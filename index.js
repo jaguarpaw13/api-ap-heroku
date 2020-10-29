@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: 'https://www.portasecura.com'
+        origin: 'https://dannytalboom13.herokuapp.com/'
     })
 );
 app.options('*', cors());
